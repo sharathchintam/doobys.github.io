@@ -64,3 +64,57 @@
 	margin-top:20px;
 	color:#ccc;
 }
+.services .col-md-3:hover
+{
+	background: #007bff;
+	cursor:pointer;
+	transition:0.7s;
+
+}
+.profile-pic
+{
+	margin-top:25px;
+
+}
+.profile-pic .img-box
+{
+opacity: 1;
+display: block;
+position: relative;
+}
+.profile-pic .img-box img:hover
+{
+	filter:grayscale(0);
+	cursor:pointer;
+
+}
+.profile-pic h2
+{
+	font-size:22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+
+}
+.profile-pic h3
+{
+	font-size:15px;
+	font-weight: bold;
+	margin-top: 15px;
+	color:8B0000;
+}
+.para p
+{
+	font-size:15 px;
+	font-style: oblique;
+	font-weight:bold;
+    cursor:pointer;
+}
+#team p
+{
+	font-size:14px;
+	margin-top:20px;
+	color:#ccc;
+}
+
+
