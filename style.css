@@ -33,8 +33,6 @@
  font-weight: 600;
  font-size: 16px;
 }
-
-
 /*-----Slider--*/
 #slider
 {
@@ -45,6 +43,18 @@
 	top: 50% ;
 	transform: translate(-50%);
 	bottom: initial !important;
+}
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/promo.jpg);
+	background-size: cover;
+	background-position:center;
+	color:#E6E6FA;
+	background-attachment:fixed;
+	text-align:center;
+	padding: 100px;
+	font-family:sans-serif;
+	font-size:35px;
 }
 .services
 {
@@ -136,7 +146,48 @@ position: relative;
 	font-family:sans-serif;
 	font-size:35px;
 }
-.promo  p
+ /*****Offers*****/
+ #price
+ {
+ 	padding: 40px 0;
+ 	background: #efefef;
+
+ }
+.single-price
 {
-	background-image: #E6E6FA;
+	margin: 10px auto;
+	display:inline;
+	float: left;
+	background-color:#fff;
+	transition:0.5s;
+}
+.single-price:hover
+{
+	box-shadow:0 2px 20px #333;
+}
+.price-head
+{
+	background-color: #2196f3;
+	display:inline;
+	float:left;
+	padding:10px 5px;
+	text-align:center;
+	width: 100%;
+}
+ .price-content 
+{
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/food.jpg);
+	background-size: cover;
+	background-position:center;
+	color:#E6E6FA;
+	background-attachment:fixed;
+	padding: 100px;
+	text-align: left;
+	font-size:20px;
+}
+.price-content ul
+{
+	display:inline;
+	text-align:left;
+	position:static;
 }
