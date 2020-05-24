@@ -1,0 +1,31 @@
+Cascading style sheets:
+---------------
+background-color:red; -----------this will give the background of the selected tag
+color:red; -----------------------this will give the color for text
+border-bottom:1px solid black;----this will give the border for the selected text.
+font-size: 12px-----------------which will change the font size
+font-family:helvectia; --------this will change the font style
+------------------------------------------------------------------------------------------------------------------
+h1,h2
+{
+font-color:red;          --------both h1 and h2 color will change and we can seperate with commas
+}                       
+
+
+------------------------------------------------------------------------------------------------------------
+
+<p class="blue"></p>
+
+dot(.) is to specify the class---example p.blue 
+------------------------------------------------------------------------------------------------
+h1
+{
+text-decoration:underline; --------------------this will provide underline to the text
+text-decoration:line-through;  --------------this provides line inside the text.
+text-decoration:underline overline;------gives line on top and bottom
+}
+---------------------------------------------------------
+font-weight:lighter; --------------------------which gives different font look
+
+-------------------------------------------
+link-rel="stylesheet.css" type="text/css" href="stylesheet.css">
